@@ -1,0 +1,60 @@
+/*Existen cuatro tipos de selectores
+Globales: Aplicados a todos los elementos
+Etiqueta: Se aplica a la etiqueta correspondiente
+Clase: Se aplica al componente indicado que se invoca mediante su nombre, se utiliza las veces necesarias el simbolo es que se utiliza es el (.)
+id: Se aplica al componente indicado que se invoca mediante el nombre, se utiliza una sola vez y su simbolo es el (#)
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 32px 20px;
+    background-color: #e0e0e0e3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.enlace {
+    color: blue;
+    text-align: right;
+}
+
+#imagen {
+    width: 50%;
+}
+
+/*Aplicamos estilos al contenedor main*/
+
+main {
+    min-height: 1400px;
+    margin: 0 auto;
+}
+
+/*estilos al contenedor Header*/
+
+header p {
+    margin-bottom: 24px;
+    color: brown;
+    line-height: 1.5;
+}
+
+/*Permite consultar todas las columnas en pantallas pequeñas*/
+.tabla-contenedor {
+    overflow-x: auto;
+    background-color: white;
+    border: 1px solid brown;
+    border-radius: 14px;
+    box-shadow: 0px 8px 24px rgb(71, 61, 47);
+}
+
+/*Estilos h1*/
+h1 {
+    text-align: center;
+    margin: 0 0 8px;
+    font-size: clapm(50px,4vm,34px);
+    color: whitesmoke;
+    background-color: brown;
+}
